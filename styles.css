@@ -22,10 +22,16 @@ body{
     
 }
 
+
+.cont-header-nav{
+    padding-top: 20px;
+}
+
 header{
     margin-right: auto;
     font-size: 24px;
     font-weight: bold;
+
 }
 
 nav a{
@@ -114,6 +120,30 @@ nav a{
     font-size: medium;
 }
 
+.cont-callToAction{
+    background-color: white;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.calToAction-bkgd{
+    background-color: #3c9c64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 600px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.callToAction-btn{
+    margin-left: auto;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: bacl solid 3px;
+}
 
 .cont-footer{
     font-size: small;
