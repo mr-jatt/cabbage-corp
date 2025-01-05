@@ -75,19 +75,23 @@ nav a{
 }
 
 .cont-information{
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    text-align: center;
     background-color: white;
     color: black;
-    gap: 30px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 150px 200px;
 
+}
+.cabbage-varity{
+    font-size: x-large;
 }
 
 .cabbage-information{
     display: flex;
+    justify-content: space-evenly;
     gap: 30px;
+    margin: auto;    
+    padding-top: 100px;
 }
 
 .cabbage-info{
@@ -98,17 +102,17 @@ nav a{
 }
 
 .cabbage-info img{
-    border: 1px green solid;
+    border: 1px black solid;
     border-radius: 8px;
 }
 
 .cont-reviews{
+    display: block;
+    text-align: center;
     background-color: lightgreen;
     color: black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    flex-direction: column;
-    align-items: center;
+    padding: 150px 200px;
+
 }
 
 .cont-reviews .review{
@@ -119,37 +123,47 @@ nav a{
 .cont-reviews .name{
     font-weight: bold;
     align-items: flex-end;
-    margin-top: 5px;
+    margin-top: 30px;
     padding-left: 200px;
     font-size: medium;
 }
 
 .cont-callToAction{
     background-color: white;
+    padding: 50px 200px;
+
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .calToAction-bkgd{
+    flex: 1;
     background-color: #3c9c64;
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    width: 600px;
+    
+
     padding: 10px 30px;
     border-radius: 10px;
 }
 
 .callToAction-btn{
-    margin-left: auto;
+
     padding: 5px 8px;
     border-radius: 8px;
-    border: bacl solid 3px;
+    border: blgreyack solid 3px;
 }
 
 .cont-footer{
+    background-color: #3c9c64;
+    color: white;
+
+    display: block;
+    text-align: center;
+    
     font-size: small;
-    justify-content: center;
+    padding: 5px 200px;
+    margin-bottom: 0;
 }
